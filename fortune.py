@@ -5,3 +5,4 @@ for i in range(0, len(outside_colours)):
     print(outside_colours[i])
 
 colour_choice = input('--> ')
+print('you chose ' + colour_choice)
