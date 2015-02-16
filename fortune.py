@@ -4,6 +4,7 @@ def player_choice(name, choices):
     player_has_chosen_ok = False
 
     while not player_has_chosen_ok:
+        print()
         print('choose a ' + name + ':')
         for i in range(0, len(choices)):
             print(choices[i])
