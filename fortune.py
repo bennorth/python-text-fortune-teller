@@ -1,8 +1,12 @@
 outside_colours = ['RED', 'GREEN', 'BLUE', 'YELLOW']
 
-print('choose a colour:')
-for i in range(0, len(outside_colours)):
-    print(outside_colours[i])
+def player_choice(name, choices):
+    print('choose a ' + name + ':')
+    for i in range(0, len(choices)):
+        print(choices[i])
 
-colour_choice = input('--> ')
+    choice = input('--> ')
+    return choice
+
+colour_choice = player_choice('colour', outside_colours)
 print('you chose ' + colour_choice)
