@@ -65,3 +65,7 @@ fortunes = ['You will become very rich!',
             'You will get eaten by a dragon!']
 
 player_fortune = fortunes[fortune_number]
+
+print()
+print(player_fortune)
+print()
