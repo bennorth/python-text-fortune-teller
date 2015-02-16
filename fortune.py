@@ -20,8 +20,6 @@ def player_choice(name, choices):
 
 colour_choice = player_choice('colour', outside_colours)
 
-print('you chose ' + colour_choice)
-
 n_letters_in_colour = len(colour_choice)
 
 # RED (3 letters) and GREEN (5 letters) lead to [1, 2, 5, 6]
