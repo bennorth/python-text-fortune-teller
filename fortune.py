@@ -22,3 +22,11 @@ else:
     first_number_choices = ['3', '4', '7', '8']
 
 first_number_chosen = player_choice('number', first_number_choices)
+
+# The next choice is slightly fiddly.  There are four different ways the
+# game might have player out so far:
+#
+# Choose RED or GREEN; show 1256; then choose 1 or 5: next is 3478
+# Choose RED or GREEN; show 1256; then choose 2 or 6: next is 1256
+# Choose BLUE or YELLOW; show 3478; then choose 3 or 7: next is 1256
+# Choose BLUE or YELLOW; show 3478; then choose 4 or 8: next is 3478
