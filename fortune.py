@@ -54,3 +54,12 @@ second_number_chosen = player_choice('number', second_number_choices)
 fortune_number = int(second_number_chosen) - 1
 print('fortune chosen:')
 print(fortune_number)
+
+fortunes = ['You will become very rich!',
+            'You will fall into a big hole!',
+            'You will find a worm in your next apple!',
+            'You will lose your umbrella!',
+            'You will dig up some treasure at the beach!',
+            'You will turn into a newt!',
+            'You will get no homework tomorrow!',
+            'You will get eaten by a dragon!']
