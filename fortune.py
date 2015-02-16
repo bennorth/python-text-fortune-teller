@@ -52,3 +52,5 @@ second_number_chosen = player_choice('number', second_number_choices)
 # the string to an integer (whole number).
 
 fortune_number = int(second_number_chosen)
+print('fortune chosen:')
+print(fortune_number)
