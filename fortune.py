@@ -47,3 +47,8 @@ else:
         second_number_choices = ['3', '4', '7', '8']
 
 second_number_chosen = player_choice('number', second_number_choices)
+
+# Now we know what the player's fortune is!  But first we must convert
+# the string to an integer (whole number).
+
+fortune_number = int(second_number_chosen)
