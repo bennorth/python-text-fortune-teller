@@ -30,3 +30,18 @@ first_number_chosen = player_choice('number', first_number_choices)
 # Choose RED or GREEN; show 1256; then choose 2 or 6: next is 1256
 # Choose BLUE or YELLOW; show 3478; then choose 3 or 7: next is 1256
 # Choose BLUE or YELLOW; show 3478; then choose 4 or 8: next is 3478
+
+if n_letters_in_colour in [3, 5]:
+    # The player just chose from 1256
+
+    if first_number_chosen in ['1', '5']:
+        second_number_choices = ['3', '4', '7', '8']
+    else:
+        second_number_choices = ['1', '2', '5', '6']
+else:
+    # The player just chose from 3478
+
+    if first_number_chosen in ['3', '7']:
+        second_number_choices = ['1', '2', '5', '6']
+    else:
+        second_number_choices = ['3', '4', '7', '8']
