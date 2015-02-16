@@ -12,6 +12,9 @@ def player_choice(name, choices):
 
         player_has_chosen_ok = (choice in choices)
 
+        if not player_has_chosen_ok:
+            print('please choose something on the list')
+
     return choice
 
 colour_choice = player_choice('colour', outside_colours)
