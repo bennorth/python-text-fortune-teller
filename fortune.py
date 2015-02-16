@@ -9,6 +9,9 @@ def player_choice(name, choices):
     return choice
 
 colour_choice = player_choice('colour', outside_colours)
+
+# What happens if the player typed "purple" here?
+
 print('you chose ' + colour_choice)
 
 n_letters_in_colour = len(colour_choice)
