@@ -45,3 +45,5 @@ else:
         second_number_choices = ['1', '2', '5', '6']
     else:
         second_number_choices = ['3', '4', '7', '8']
+
+second_number_chosen = player_choice('number', second_number_choices)
