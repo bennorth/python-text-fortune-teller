@@ -21,3 +21,5 @@ if n_letters_in_colour in [3, 5]:
     first_number_choices = ['1', '2', '5', '6']
 else:
     first_number_choices = ['3', '4', '7', '8']
+
+first_number_chosen = player_choice('number', first_number_choices)
