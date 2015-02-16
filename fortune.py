@@ -63,3 +63,5 @@ fortunes = ['You will become very rich!',
             'You will turn into a newt!',
             'You will get no homework tomorrow!',
             'You will get eaten by a dragon!']
+
+player_fortune = fortunes[fortune_number]
